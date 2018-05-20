@@ -4,11 +4,11 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class HelloController {
+public class anotherSpringEndPoint {
 
-	@RequestMapping("/Hello")
+	@RequestMapping("/another")
 	public String index(){
-		return "Greetings from Spring Boot!!!  I cant believe this worked";
+		return "What about this";
 
 
 	}
